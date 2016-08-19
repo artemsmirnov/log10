@@ -1,0 +1,50 @@
+{
+  "name": "log10",
+  "version": "0.1.0",
+  "description": "Papyrus - log aggregation tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*_test.js",
+    "start": "node -r babel-register src/server.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemsmirnov/log10.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artemsmirnov/log10/issues"
+  },
+  "homepage": "https://github.com/artemsmirnov/log10#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "express-validation": "github:artemsmirnov/express-validation",
+    "joi": "^9.0.4",
+    "lodash": "^4.14.2",
+    "mongoose": "^4.5.8",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015-node": "^6.1.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-stylus": "^2.5.0",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.0",
+    "should": "^11.1.0",
+    "should-sinon": "0.0.5",
+    "sinon": "^1.17.5",
+    "supertest": "^2.0.0"
+  }
+}

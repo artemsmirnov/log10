@@ -1,0 +1,10 @@
+{
+    "presets": ["es2015-node"],
+    "plugins": [
+      ["transform-async-to-generator"],
+      ["module-alias", [
+        { "src": "./src", "expose": "src" },
+        { "src": "./src/models", "expose": "models" }
+      ]]
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "mongodb": "mongodb://localhost/log10",
+    "port": 13666
+}
